@@ -21,7 +21,7 @@ class Calculator
         return $a / $b;
     }
 
-    // Отнимание
+    // Разность
     public function sub($a, $b){
         return $b - $a;
     }
