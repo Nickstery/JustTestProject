@@ -15,7 +15,7 @@ class Calculator
     // Деление
     public function div($a, $b){
         // На ноль делить не можем
-        if($b != 0){
+        if($b == 0){
             return 'Could not divide by zero';
         }
         return $a / $b;
